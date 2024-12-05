@@ -1,7 +1,7 @@
 {
   "name": "com.zagoradev.di",
   "displayName": "Dependency Injection (zagora.dev)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2022.3",
   "description": "Dependency Injection package based on Reflex.",
   "keywords": [
