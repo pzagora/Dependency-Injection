@@ -3,9 +3,9 @@ using UnityEngine;
 
 namespace DependencyInjection.Mock
 {
-    public class MockedInstallerA : MonoBehaviour, IInstaller
+    internal class MockedInstallerA : MonoBehaviour, IInstaller
     {
-        public void InstallBindings(ContainerBuilder containerBuilder)
+        internal void InstallBindings(ContainerBuilder containerBuilder)
         {
             containerBuilder.AddSingleton("A");
         }
