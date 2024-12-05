@@ -6,6 +6,10 @@ using DependencyInjection.Exceptions;
 
 namespace DependencyInjection.Injectors
 {
+    /// <summary>
+    /// Used for manual object creation with usage of constructor injection.
+    /// Use <see cref="DependencyInjection.Attributes.DependencyInjectionConstructorAttribute">DependencyInjectionConstructorAttribute</see> if constructor selection for injection is needed.
+    /// </summary>
     public static class ConstructorInjector
     {
         public static object Construct(Type concrete, Container container)

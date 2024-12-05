@@ -3,6 +3,9 @@ using DependencyInjection.Core;
 
 namespace DependencyInjection.Injectors
 {
+    /// <summary>
+    /// Used for manual attribute injection of fields, properties and methods.
+    /// </summary>
     public static class AttributeInjector
     {
         public static void Inject(object obj, Container container)
