@@ -5,7 +5,7 @@ namespace DependencyInjection.Mock
 {
     internal class MockedInstallerC : MonoBehaviour, IInstaller
     {
-        internal void InstallBindings(ContainerBuilder containerBuilder)
+        public void InstallBindings(ContainerBuilder containerBuilder)
         {
             containerBuilder.AddSingleton("C");
         }
