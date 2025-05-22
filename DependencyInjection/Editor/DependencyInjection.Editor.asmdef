@@ -2,7 +2,7 @@
     "name": "DependencyInjection.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:1530a967b84cfb44dbdd5e8a1989764f"
+        "GUID:4d6cb74cbd2753340b4f2e4a352bd316"
     ],
     "includePlatforms": [
         "Editor"

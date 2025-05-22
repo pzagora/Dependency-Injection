@@ -5,8 +5,8 @@
         "UnityEditor.TestRunner",
         "UnityEngine.TestRunner",
         "DependencyInjection",
-        "DependencyInjection.Mock",
-        "DependencyInjection.Editor"
+        "DependencyInjection.Editor",
+        "DependencyInjection.Mock"
     ],
     "includePlatforms": [
         "Editor"
